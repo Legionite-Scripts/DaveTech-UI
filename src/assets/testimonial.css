@@ -1,0 +1,105 @@
+#Testimonial {
+  height: 30em;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow-y: auto;
+}
+#Testimonial #testimonialText {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#Testimonial #testimonialText h1 {
+  color: #333333;
+  font-size: 2.2em;
+  font-weight: 600;
+}
+#Testimonial #testimonialText h1 span {
+  color: #18bc9c;
+}
+#linkDiv {
+  width: 70%;
+}
+#linkDiv li {
+  color: #333333;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+#testimonialButtonDiv {
+  width: 70%;
+}
+#testimonialButtonDiv button {
+  background-color: #18bc9c;
+}
+#Testimonial #testimonialImageDiv {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#Testimonial #testimonialImageDiv img {
+  width: 90%;
+  height: 90%;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  #Testimonial {
+    height: 50em;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow-y: auto;
+  }
+  #Testimonial #testimonialText {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #Testimonial #testimonialText h1 {
+    color: #333333;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  #linkDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* align-items: center; */
+  }
+  #linkDiv li {
+    color: #333333;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  #testimonialButtonDiv {
+    width: 100%;
+  }
+  #Testimonial #testimonialImageDiv {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #Testimonial #testimonialImageDiv img {
+    width: 100%;
+    height: 90%;
+    border-radius: 50px;
+  }
+}
